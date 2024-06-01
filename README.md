@@ -34,3 +34,9 @@ Non-Functional Requirements:
 -> Button actions should be responsive and clearly visible.
 
 -> The application should be compatible with modern web browsers such as Google Chrome, Mozilla Firefox, and Safari.
+
+# Deployment
+The project is deployed over Netlify.
+
+# Hosted Link
+https://stopwatch-project-reactjs.netlify.app/
