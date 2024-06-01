@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Stopwatch Application
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+#Features
 
-In the project directory, you can run:
+The Stopwatch Application should have the following features:
 
-### `npm start`
+-Start/Pause Button: Initiates or halts the stopwatch timer.
+-Stop Button: Stops the stopwatch timer.
+-Reset Button: Resets the stopwatch timer to zero.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Functional Requirements:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Start/Pause Button:
+Description: Users can start or pause the stopwatch timer by clicking on the Start/Pause button.
 
-### `npm test`
+Acceptance Criteria: Clicking on the Start button initiates the stopwatch timer. When the stopwatch is running, clicking on the Pause button halts the timer at the current elapsed time. Clicking on the Pause button again resumes the timer from the paused time.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Stop Button:
+Description: Users can stop the stopwatch timer at any point.
 
-### `npm run build`
+Acceptance Criteria: Clicking on the Stop button halts the stopwatch timer and displays the final elapsed time. The stopwatch timer resets to zero after stopping.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Reset Button:
+Description: Users can reset the stopwatch timer to zero.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Acceptance Criteria: Clicking on the Reset button resets the stopwatch timer to zero. This action clears any previous elapsed time.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Non-Functional Requirements:
 
-### `npm run eject`
+-> The user interface should be intuitive and user-friendly.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-> Button actions should be responsive and clearly visible.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-> The application should be compatible with modern web browsers such as Google Chrome, Mozilla Firefox, and Safari.

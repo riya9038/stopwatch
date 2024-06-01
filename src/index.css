@@ -1,13 +1,105 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.App {
+  position: absolute;
+  background-color: black;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family: sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.starterText {
+  position: absolute;
+  top: 68%;
+  font-size: 30px;
+  color: white;
+  text-shadow: 2px 2px 2px gray;
+  margin: auto;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.stopwatch {
+  position: relative;
+  top: 10%;
+}
+
+.stopwatch button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  position: absolute;
+  font-weight: bolder;
+}
+
+.reset-btn {
+  cursor: pointer;
+  top: 65px;
+  left: 0px;
+  transform: rotateZ(-35deg) translateX(10px);
+  color: white;
+}
+
+.start-btn {
+  cursor: pointer;
+  top: -20px;
+  right: 150px;
+  color: white;
+}
+.pause-btn {
+  cursor: pointer;
+  top: -20px;
+  right: 140px;
+  color: white;
+}
+.stop-btn {
+  cursor: pointer;
+  top: 70px;
+  right: 0px;
+  transform: rotateZ(35deg) translateX(-15px);
+  color: white;
+}
+
+.timer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  font-size: 42px;
+  background-color: white;
+  top: 52%;
+  left: 18%;
+}
+
+.lapseContainer {
+  height: 200px;
+  position: absolute;
+  top: 62%;
+  left: 40%;
+  background-color: black;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.lapseTimeContainer {
+  height: 200px;
+  overflow-y: scroll;
+}
+.lapsedTime {
+  color: grey;
+  font-size: 42px;
+  margin: 10px;
+}
+.lapsedText {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+::-webkit-scrollbar {
+  display: none;
 }
